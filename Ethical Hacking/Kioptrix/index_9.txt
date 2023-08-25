@@ -1,0 +1,31 @@
+# index
+ Index Expand All Collapse All 
+• - Assessment Notes
+◇ - Kioptrix (192.168.64.3)
+▪ - nmap
+- 22
+- - 80/443
+→ Nikto
+
+- 139
+
+▪ - Findings
+- Default Web Page - Apache
+- Information Disclosure
+
+▪ - Exploitation
+- SMB - trans2open
+- 80 - modssl
+
+▪ - Post Exploitation
+- Shadow File
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,19 @@
+#### 139
+
+139
+
+Interesting Items:
+
+SMB
+Unix (Samba 2.2.1a)
+
+Could anonymously connect to IPC with smbclient, but not Admin
+
+139- Potentially Vulnerable to:
+https://www.rapid7.com/db/modules/exploit/linux/samba/trans2open/
+https://www.exploit-db.com/exploits/10
+https://www.exploit-db.com/exploits/7
+
+
+
+
