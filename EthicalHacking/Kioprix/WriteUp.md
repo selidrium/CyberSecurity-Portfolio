@@ -70,7 +70,10 @@ Detail the information-gathering phase:
 I quickly found that the service running under port 139 (samba) was seriously vulnerable and decided to attack that. (Note: Samba is very similar to FTP / NFS, it’s basically a file-sharing system between Linux and Windows).
 
 Searched for Samba 2.2.1a exploit on metasploit:
-![Metasploit](Kioptrix/img/metasploit.png)
+
+
+![Metasploit](./img/metasploit.png)
+
 
 Explain how you approached exploiting the challenge:
 - Vulnerabilities or weaknesses identified
