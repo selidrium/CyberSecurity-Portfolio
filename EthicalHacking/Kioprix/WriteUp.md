@@ -8,9 +8,7 @@
 - [Challenge Overview](#challenge-overview)
 - [Initial Reconnaissance](#initial-reconnaissance)
 - [Exploitation](#exploitation)
-- [Privilege Escalation](#privilege-escalation)
 - [Flag Retrieval](#flag-retrieval)
-- [Conclusion](#conclusion)
 - [Resources](#resources)
 
 ---
