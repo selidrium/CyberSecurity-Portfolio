@@ -74,14 +74,13 @@ Before diving into my journey, let's briefly discuss why CompTIA Security+ is a 
 ## Communities
 
 - Join Professor Messers Discord!
-  - It helps a lot to connect and chat with other people with similar goals, they'll tell you about their experience with the exam as well as how they are able to understand difficult to learn objectives
+  - It helps a lot to connect and chat with other people with similar goals, they'll tell you about their experience with the exam as well as how they are able to understand difficult-to-learn objectives
   - https://www.professormesser.com/ (click the join discord chat)
 - Join CertJunkies Sec+
   - I couldn't find a link for them, but I joined them through networking in Professor Messer's discord
   - Study groups!!
 
-### Exam Day
-#additional-tips
+## Additional Tips 
 
 - **Exam Tips**:
   - I personally took the exam online via Pearson PurVUE
