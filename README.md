@@ -19,7 +19,7 @@ I've organized the projects into the following categories:
 
 - Ethical Hacking and Capture The Flag (CTF) Challenges
 - GRC Auditing and Compliance Assessments
-- Cybersecurity-Related Python Programming
+- Cybersecurity-Related Projects
 
 Feel free to explore the folders corresponding to each category to find write-ups, code samples, and explanations of the projects I've worked on.
 
