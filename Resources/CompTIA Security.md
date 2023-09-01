@@ -9,10 +9,9 @@ Welcome to the CompTIA Security+ certification resources page! This collection o
 3. [Practice Exams](#practice-exams)
 4. [Online Courses](#online-courses)
 5. [Videos](#videos)
-6. [Blogs and Articles](#blogs-and-articles)
-7. [Interactive Labs](#interactive-labs)
-8. [Communities](#communities)
-9. [Additional Tips](#additional-tips)
+6. [Interactive Labs](#interactive-labs)
+7. [Communities](#communities)
+8. [Additional Tips](#additional-tips)
 
 ---
 
@@ -91,7 +90,14 @@ Before diving into my journey, let's briefly discuss why CompTIA Security+ is a 
   - Domain 2
   - Domain 3
 - I spent the most time reviewing those domains, rewatching all of Professor Messer's videos that cover those specific domains, as well as the Security+ Cram videos for the specific domains.
-- Keep track of your progress
+- Keep track of your progress, I would make a Word document for each Professe Messer Exam, set it up into 3 columns, and every page covered a new attempt. Every page showed improvement, which boosts confidence, a good marker to let you know you are ready.
+![Word Document Progress](./img/WordTestProgress.png)
+
+- Professor Messer does a great job of letting you know what objective and domain you missed and provides a link to the video covering that objective on the exam answers.
+- I used Excel to create a spreadsheet that tracked which areas I was lacking in the most, and what videos I needed to watch, once I watched the video or the domain, I highlighted them in green to let me know I watched them already, and once I covered all of my missed objectives, I tried the exam again. Each time I noticed the list was getting smaller and smaller.
+
+![Excel Document Progress](./img/ExcelTestProgress.png)
+
 ## Results and What's Next
 
 - After 6 weeks of studying, I decided to bite the bullet and take the exam, I passed with an 805.
