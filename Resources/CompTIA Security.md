@@ -34,6 +34,8 @@ Before diving into my journey, let's briefly discuss why CompTIA Security+ is a 
   - https://www.professormesser.com/sy0-601-success-bundle/
 - Dion Training Study Guide (Provided with Course)
   - https://www.udemy.com/course/securityplus/
+- Study Guide I created with the concepts I struggled with the most
+  - https://github.com/selidrium/CyberSecurity-Portfolio/blob/5c0a43420bf4cbdc36d01cc284c549b280b1080d/Resources/SecPlus.docx
 
 ## Practice Exams
  Whenever you finish the exam, grade them but don't look at the answers. Instead, try to figure out why you got it wrong and what could possibly be the correct answer
@@ -79,6 +81,7 @@ Before diving into my journey, let's briefly discuss why CompTIA Security+ is a 
   - Study groups!!
 
 ### Exam Day
+#additional-tips
 
 - **Exam Tips**:
   - I personally took the exam online via Pearson PurVUE
