@@ -53,7 +53,7 @@ Before diving into my journey, let's briefly discuss why CompTIA Security+ is a 
 - Use the cram to watch over domains you are struggling with, and to get a refresher of all of the domains effectively before the exam
 - Security+ Cram
   - https://www.youtube.com/watch?v=9Hd8QJmZQUc&list=PL7XJSuT7Dq_VD3eHXQf3Ld2ceBSFCayns&ab_channel=InsideCloudandSecurity
- Dion's training was the first course I started, but I found it lacked a lot of the exam objectives, so I would leave it for last, as a source of supplemental knowledge
+- Dion's training was the first course I started, but I found it lacked a lot of the exam objectives, so I would leave it for last, as a source of supplemental knowledge
 - Dion Training
   - https://www.udemy.com/course/securityplus/
 
