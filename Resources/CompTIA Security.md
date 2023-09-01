@@ -59,7 +59,7 @@ Before diving into my journey, let's briefly discuss why CompTIA Security+ is a 
 
 ## Videos
 
- Whenever I had trouble understanding some Networking objectives, I found watching visual lessons helped me a lot
+ Whenever I had trouble understanding some Networking objectives, I found watching visual lessons helpful
 - Visual Learning for Network Concepts
   - https://www.youtube.com/@PowerCertAnimatedVideos
 
