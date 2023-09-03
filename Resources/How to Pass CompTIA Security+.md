@@ -100,6 +100,10 @@ Before diving into my journey, let's briefly discuss why CompTIA Security+ is a 
 
 ![Excel Document Progress](./img/ExcelTestProgress.png)
 
+Excel Template Download:
+https://github.com/selidrium/CyberSecurity-Portfolio/raw/main/Resources/Progress_Tracker_Template.xlsx
+
+
 ## Results and What's Next
 
 - After 6 weeks of studying, I decided to bite the bullet and take the exam, I passed with an 805.
